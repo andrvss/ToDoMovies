@@ -1,0 +1,52 @@
+app_name: to_do_movies
+
+app_description: Um simples aplicativo sobre filmes.
+
+app_publish_to: "none"
+
+app_version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management and dependency injection
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+  provider: ^6.0.3
+  equatable: ^2.0.3
+
+  # HTTP Client
+  dio: ^4.0.6
+
+  # Other packages
+  cupertino_icons: ^1.0.2
+  cached_network_image: ^3.2.1
+  palette_generator: ^0.3.3+1
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+  # Package for testing Dio requests
+  http_mock_adapter: ^0.3.3
+
+  # CLI to setup launcher icon and android package name
+  flutter_launcher_icons: ^0.9.3
+  change_app_package_name: ^1.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_icons:
+  ios: true
+  android: true
+  image_path: "assets/launch/launch_icon.png"
