@@ -63,4 +63,4 @@ Este projeto ainda não possui uma release oficial e está disponível apenas co
 
 Há uma possibilidade de a chave API apresentar inconsistências, porém, durante os testes locais, o código funcionou corretamente. 
 
-Agradeço profundamente pela oportunidade, principalmente de continuar o processo seletivo. me esforcei ao máximo para tentar me destacar.
+Novas features estão sendo desenvolvidas e em breve haverão mais interações no app.
